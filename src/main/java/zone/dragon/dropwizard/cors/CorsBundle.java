@@ -4,10 +4,6 @@ import io.dropwizard.Bundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
-/**
- * @author Darth Android
- * @date 6/6/2017
- */
 public class CorsBundle implements Bundle {
     @Override
     public void initialize(Bootstrap<?> bootstrap) {

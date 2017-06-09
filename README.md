@@ -1,4 +1,4 @@
-# Dropwizard Cross-Origin-Resource-Sharing
+# Dropwizard Cross-Origin-Resource-Sharing (CORS)
 
 This bundle enables support for CORS headers, including pre-flight requests.
 
@@ -13,7 +13,7 @@ To use this bundle, add it to your application in the initialize method:
 
 To enable basic CORS support for a resource, add the `@CorsAllowOrigins` annotation. By default, this whitelists all origins (equivalent 
 to `@CorsAllowOrigins("*")`); To whitelist specific domains, provide the origins as an array with this annotation (Ex. `@CorsAllowOrigins
-({"http://google.com", "https://google.com")`). This triggers generation of the `Access-Control-Allow-Origin` response header.
+({"http://google.com", "https://google.com"})`). This triggers generation of the `Access-Control-Allow-Origin` response header.
 
 The following annotations can further control and customize the CORS response:
 
